@@ -95,7 +95,7 @@ def is_move_valid(env, loc, act):
     elif act == 'r':
         y += 1
 
-    return (0 <= y <= columns - 1) and (0 <= x <= rows - 1) and (env_data[x][y] != 2)
+    return (0 <= y <= columns - 1) and (0 <= x <= rows - 1) and (env[x][y] != 2)
 
 """
 定义 valid_actions 的函数，输出机器人在这个位置所有的可行动作到列表 available_actions。
