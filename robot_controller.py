@@ -208,7 +208,7 @@ def random_choose_actions(env, current_loc):
             print("在第{}个回合找到宝藏!".format(round_count))
             break
         elif round_count >= loop_limit:
-            print("没有找到宝藏，请重试或者增大循环次数。")
+            print("没有找到宝藏，请重新运行或者增大循环次数。")
             break
 
 # 运行
